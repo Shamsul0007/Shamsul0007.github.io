@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Md Shamsul Haque | Civil Engineering Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: #e9ecef; }
+        .container { display: flex; min-height: 150vh; }
+        aside {
+            background: #34495e;
+            color: #fff;
+            width: 250px;
+            padding: 40px 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            min-height: 100vh;
+        }
+        aside h1 { margin: 0 0 10px 0; font-size: 2em; text-align: center; }
+        aside p { margin: 0 0 30px 0; font-size: 1.1em; text-align: center; }
+        nav { width: 100%; }
+        nav a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 0;
+            margin: 5px 0;
+            font-weight: 500;
+            border-radius: 4px;
+            transition: background 0.2s;
+            text-align: center;
+        }
+        nav a:hover { background: #2d3e50; }
+        main {
+            flex: 1;
+            padding: 40px 30px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(44,62,80,0.07);
+        }
+        section { margin-bottom: 40px; }
+        h2 { color: #34495e; margin-top: 0; }
+        ul { padding-left: 20px; }
+        footer {
+            text-align: center;
+            padding: 16px 0;
+            background: #34495e;
+            color: #fff;
+            font-size: 1em;
+            letter-spacing: 1px;
+        }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; }
+            aside {
+                position: static;
+                width: 100%;
+                min-height: auto;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding: 20px 10px;
+            }
+            aside img {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 0;
+                margin-right: 16px;
+            }
+            aside div {
+                margin-right: 16px;
+            }
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+                width: auto;
+                margin-left: auto;
+            }
+            nav a {
+                padding: 8px 10px;
+                margin: 0;
+                font-size: 0.95em;
+            }
+            main { padding: 20px 8px; }
+        }
+        @media (max-width: 600px) {
+            aside {
+                flex-direction: column;
+                align-items: center;
+                padding: 16px 4px;
+            }
+            aside img {
+                width: 60px;
+                height: 60px;
+                margin-bottom: 10px;
+                margin-right: 0;
+            }
+            aside div {
+                margin-right: 0;
+            }
+            nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 0;
+                margin-left: 0;
+                width: 100%;
+                display: none; /* Hide navigation links on mobile */
+            }
+            nav a {
+                width: 100%;
+                font-size: 1em;
+                padding: 10px 0;
+            }
+            main { padding: 10px 2px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <img src="profile.jpg" alt="Md Shamsul Haque" style="width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:20px;border:4px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+            <div>
+                <h1 style="margin-bottom:0;">
+                    <span>Md Shamsul</span><br>
+                    <span>Haque</span>
+                </h1>
+                <p>Civil Engineering Graduate</p>
+            </div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#research">Research & Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#publications">Publications</a>
+            </nav>
+        </aside>
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    Welcome! I am Md Shamsul Haque, a civil engineering graduate from BUET, Dhaka, Bangladesh, specializing in Transportation Engineering. I am passionate about travel behavior, demand modeling, and sustainable infrastructure. My research leverages big data, statistical modeling, and machine learning to solve real-world transportation challenges. I enjoy teaching, teamwork, and leading innovative projects.
+                </p>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:shamsulhaque0007@gmail.com" style="color:#2980b9;">shamsulhaque0007@gmail.com</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/md-shamsul-haque-a03261306/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BBJVfzLL7TmibNxkZfANyrw%3D%3D" target="_blank" style="color:#2980b9;">md-shamsul-haque</a></li>
+                </ul>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <strong>B.Sc. in Civil Engineering</strong>, Bangladesh University of Engineering and Technology (BUET), 2019–2024
+                        <br>
+                        CGPA: 3.61/4.00 &mdash; Major: Transportation Engineering
+                        <br>
+                        Relevant coursework: Transportation Engineering I–V, Urban Transportation Planning and Management, Traffic Engineering Demand and Management, Structural Analysis, Hydrology
+                        <br>
+                        <strong>Thesis:</strong> Evaluating Customer Perceptions on Service Quality of Dhaka Metro Rail System: A Hybrid SEM-ANN Approach.
+                    </li>
+                </ul>
+            </section>
+            <section id="experience">
+                <h2>Professional Experience</h2>
+                <ul>
+                    <li>
+                        <strong>Lecturer</strong> (2024–Present)<br>
+                        Department of Civil Engineering, Uttara University, Dhaka, Bangladesh
+                        <br>
+                        <em>Courses taught:</em> Principle of Soil Mechanics, Transportation Engineering I & II, Transportation Engineering Lab Sessional, Structural Analysis Lab Sessional
+                        <br>
+                        Taught five sections in one semester, managed lectures, assignments, grading, and counseling hours.
+                    </li>
+                </ul>
+            </section>
+            <section id="research">
+                <h2>Research & Projects</h2>
+                <ul>
+                    <li>
+                        <strong>Undergraduate Thesis</strong> (2023–2024)<br>
+                        Evaluating Customer Perceptions on Service Quality of Dhaka Metro Rail System: A Hybrid SEM-ANN Approach.<br>
+                        <em>Supervisor:</em> Dr. M. Neaz Murshed, BUET<br>
+                        Conducted survey of 1,421 respondents, data analysis with Python and STATA, applied PCA, SEM, and ANN.
+                    </li>
+                    <li>
+                        <strong>Research Project:</strong> Surface Water Pollution from Inland Waterways Transportation (2023–2024)<br>
+                        <em>PI:</em> Dr. Sk. Mokhlesur Rahman, BUET<br>
+                        Reviewed studies on water pollution, analyzed trade-offs between economic benefits and environmental impact.
+                    </li>
+                    <li>
+                        <strong>Capstone Project:</strong> Eco-friendly IT Incubation Center (2023–2024)<br>
+                        Led a 6-member team to design a 10-story, sustainable building. Managed surveys, feasibility reports, and cost estimates.
+                    </li>
+                    <li>
+                        <strong>MATLAB Project:</strong> Pendulum Motion & Projectile Problem with Animation (2022–2023)<br>
+                        Developed an algorithm for visualizing projectile motion using MATLAB.
+                    </li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li><strong>Programming:</strong> Python, MATLAB, SEM</li>
+                    <li><strong>Software:</strong> GIS (ArcGIS), VISSIM, AutoCAD, IBM STATA</li>
+                    <li><strong>Soft Skills:</strong> Management, Writing, Public Speaking, Teaching</li>
+                </ul>
+            </section>
+            <section id="publications">
+                <h2>Publications</h2>
+                <ul>
+                    <li>
+                        “Exploring the Impact of Service Quality and Customer Satisfaction on Reliability: A Structural Equation Modeling Approach.”<br>
+                        Submitted to AIP Conference Proceedings, 7th ICCESD.
+                        <br>
+                        <a href="https://doi.org/10.1063/5.0247904" target="_blank" style="color:#2980b9;">Read publication</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
